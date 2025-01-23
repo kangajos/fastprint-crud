@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /**
+     * environtment external
+     */
+    'fastprint' => [
+        'url' => env('FASPRINT_URL'),
+        'username' => env('FASPRINT_USERNAME'),
+        'password' => env('FASPRINT_PASSWORD'),
+    ]
 ];
